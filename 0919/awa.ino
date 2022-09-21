@@ -201,7 +201,7 @@ void oneMorse(char chr)
     for (int i = 0; i < morse.length(); i++)
     {
         digitalWrite(PIN, HIGH);
-        // 0 -> 1; 1 -> 3
+        // '0' -> 1; '1' -> 3
         sleep((morse[i] - 48) * 2 + 1);
         digitalWrite(PIN, LOW);
         sleep(1);
