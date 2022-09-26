@@ -1,3 +1,8 @@
+/*
+ * 讀取電位器的類比訊號
+ * 經特定轉換後輸出訊號
+ * 使 RGB LED 發出特定顏色
+ */
 const int PIN_R = 6;
 const int PIN_G = 5;
 const int PIN_B = 3;
