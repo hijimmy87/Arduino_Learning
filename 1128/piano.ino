@@ -1,7 +1,7 @@
 #include <math.h>
 
 const String notes[] = {"C4", "D4", "E4", "F4", "G4"};
-const int START = 15, BUZZ = 7;
+const int START = A1, BUZZ = 13;
 
 int note2freq(String note)
 {
